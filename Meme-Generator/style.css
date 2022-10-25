@@ -1,0 +1,54 @@
+.memeStuff input{
+    margin: 10px;
+    display: block;
+    padding: 4px 2px;
+    margin: 2px;
+}
+
+#masterDiv {
+    position: relative;
+}
+
+#memeMaker {
+    position: relative;
+}
+
+.topText{
+position: absolute;
+top: 10px;
+right: 10px;
+font-size: 3em;
+background-color: black;
+color: whitesmoke;
+z-index: 2;
+padding: 6px;
+min-width: 5%;
+box-sizing: border-box;
+}
+
+.image {
+position: relative;
+height: 800px;
+z-index: 1;
+}
+
+.bottomText {
+position: absolute;
+bottom: 20px;
+left: 10px;
+font-size: 3em;
+background-color: black;
+color: whitesmoke;
+padding: 6px;
+z-index: 2;
+min-width: 5%;
+box-sizing: border-box;
+}
+
+.newMeme {
+    position: relative;
+    margin: 0%;
+    max-height: 800px;
+    max-width: 800px;
+    margin-top: 50px;
+}
