@@ -30,8 +30,11 @@ memeForm.addEventListener('submit', function(e){
     textTop.value = '';
     textBottom.value = '';
     memeImg.value = '';
-
-    console.log(newBText.innerText, newTText.innerText)
+    
+    newMemeDiv.addEventListener('click', function(e){
+    newMemeDiv.remove();
+    })
+      
 return;
 });
 
